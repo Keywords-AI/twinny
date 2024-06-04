@@ -75,6 +75,18 @@ Start LiteLLM with the following command:
 litellm --model gpt-4-turbo
 ```
 
+### OpenAI compatible API
+
+Use LiteLLM sdk to connect to a hosted OpenAI compatible API getting rid of a local proxy server.
+
+For example, [Keywords AI](https://keywordsai.co) is a unified developer platform where you can call 150+ LLM using the OpenAI format with one API key.
+
+- **Provider**: `litellm`
+- **Protocol**: `https`
+- **Hostname:** `api.keywordsai.co`
+- **Port:** `443`
+- **Path:** `/api/chat/completions`
+
 ### Llama.cpp
 
 #### FIM (Auto-complete)
